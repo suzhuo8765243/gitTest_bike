@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #DEDEDE;
+}
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: #353535;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+}
+ul {
+    text-align: center;
+}
+li {
+    display: inline-block;
+}
+a,i {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "微软雅黑";
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 70px;
+}
+a {
+    margin-left: 15px;
+}
+.logo {
+    background: url("../img/logo.png") no-repeat;
+    width: 144px;
+    height: 37px;
+    float: left;
+    position: relative;
+    top: 15px;
+    left: 120px;
+    cursor: pointer;
+}
+.search {
+    float: right;
+    position: absolute;
+    right: 20px;
+    top: 0px
+}
+input {
+    display: inline-block;
+    background-color: #000;
+    height: 25px;
+    width: 200px;
+    line-height: 25px;
+    padding-left: 15px;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.fa-search {
+    background-color: rgba(6, 158, 231, 0.8);
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 25px;
+    width: 45px;
+    height: 27px;
+    text-align: center;
+    position: relative;
+    right: 20px;
+    top: 1px;
+}
+.fa-2x {
+    font-size: 17px;
+}
+
+content {
+    display: block;
+    width: 1110px;
+    margin: 100px auto;
+    overflow: auto;
+    text-align: center;
+}
+
+content div {
+    display: block;
+    width: 350px;
+    height: 300px;
+    background-color: #fff;
+    margin: 10px 10px;
+    float: left;
+}
+img {
+    width: 320px;
+    height: 200px;
+    margin: 15px;
+}
+content span {
+    display: block;
+    text-align: left;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.4);
+    margin-left: 10px;
+}
+p {
+    text-align: left;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 10px 10px;
+}
+.tfoot {
+    clear: both;
+    width: 100%;
+    height: 100px;
+    background: url("../img/tfoot.png");
+    margin-top: 50px;
+    padding-top: 22px;
+}
+
+.tfoot ul {
+    text-align: left;
+    margin-left: 50px;
+}
+.tfoot li {
+    margin-left: 15px;
+}
+
+.tfoot a {
+    color: #2AA8CE;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 40px;
+}
+
+.tfoot span {
+    margin-left: 80px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: normal;
+    font-size: 13px;
+}
+span:nth-child(3) {
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 20px;
+}
+
+
+.search i:hover {
+    background-color: rgba(6, 158, 231, 1);
+    color: rgba(255, 255, 255, 1);
+}
+nav a:hover i {
+    color: rgba(255, 255, 255, 1);
+}
+nav a:hover {
+    color: rgba(255, 255, 255, 1);
+}
+.tfoot a:hover {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+}
+content img:hover {
+    cursor: pointer;
+
+
+
+}
+#show_img,#show_img img {
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
